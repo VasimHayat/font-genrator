@@ -79,7 +79,7 @@ function convertToWebFonts(res) {
 
 
     } catch (err) {
-        console.log('some thing went wrong');
+        console.log('something went wrong');
         console.log(err);
     }
 

@@ -1,19 +1,19 @@
 {
-    "fontName": "checklist",
-    "iconPath": "svg",
-    "fontDestination": "fonts",
-    "fontClasses": [
-        {
-            "name": "fn-checklist",
-            "unicode": "\uE001"
-        },
-        {
-            "name": "fn-clock",
-            "unicode": "\uE002"
-        },
-        {
-            "name": "fn-cloud",
-            "unicode": "\uE003"
-        }
-    ]
+  "fontName": "mylib",
+  "iconPath": "svg",
+  "fontDestination": "fonts",
+  "fontClasses": [
+    {
+      "name": "icon1",
+      "unicode": "\uE001"
+    },
+    {
+      "name": "icon2",
+      "unicode": "\uE002"
+    },
+    {
+      "name": "icon3",
+      "unicode": "\uE003"
+    }
+  ]
 }

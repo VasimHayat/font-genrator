@@ -6,20 +6,19 @@
 </head>
 <style>
   @font-face {
-    font-family: 'flag';
-    src: url('./fonts/flag/flag.eot');
-    src: url('./fonts/flag/flag.eot?#iefix') format('embedded-opentype'),
-      url('./fonts/flag/flag.woff2') format('woff2'),
-      url('./fonts/flag/flag.woff') format('woff'),
-      url('./fonts/flag/flag.ttf') format('truetype'),
-      url('./fonts/flag/flag.svg?#flag') format('svg');
+    font-family: 'mylib';
+    src: url('./fonts/mylib/mylib.eot');
+    src: url('./fonts/mylib/mylib.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/mylib/mylib.woff2') format('woff2'),
+      url('./fonts/mylib/mylib.woff') format('woff'),
+      url('./fonts/mylib/mylib.ttf') format('truetype'),
+      url('./fonts/mylib/mylib.svg?#mylib') format('svg');
     font-weight: normal;
     font-style: normal;
   }
 
-  [class^="fn-"]:before,
-  [class*=" fn-"]:before {
-    font-family: "flag";
+  [class*="demo"]:before {
+    font-family: "mylib";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -36,38 +35,23 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  .fn-china:before {
+  .icon1:before {
     content: '\e001';
   }
 
-  .fn-france:before {
+  .icon2:before {
     content: '\e002';
   }
 
-  .fn-germany:before {
+  .icon3:before {
     content: '\e003';
-  }
-
-  .fn-italy:before {
-    content: '\e004';
-  }
-
-  .fn-spain:before {
-    content: '\e005';
-  }
-
-  .fn-us:before {
-    content: '\e006';
   }
 </style>
 
 <body>
-  <span class="fn-china"></span>
-  <span class="fn-france"></span>
-  <span class="fn-germany"></span>
-  <span class="fn-italy"></span>
-  <span class="fn-spain"></span>
-  <span class="fn-us"></span>
+  <span class="demo icon1"></span>
+  <span class="demo icon2"></span>
+  <span class="demo icon3"></span>
 </body>
 
 </html>
