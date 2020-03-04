@@ -1,18 +1,18 @@
 {
-  "fontName": "mylib",
+  "fontName": "myfont",
   "iconPath": "svg",
   "fontDestination": "fonts",
   "fontClasses": [
     {
-      "name": "icon1",
+      "name": "fg-home",
       "unicode": "\uE001"
     },
     {
-      "name": "icon2",
+      "name": "fg-dashboard",
       "unicode": "\uE002"
     },
     {
-      "name": "icon3",
+      "name": "fg-task",
       "unicode": "\uE003"
     }
   ]

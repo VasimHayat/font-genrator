@@ -1,0 +1,3 @@
+.fg-home:before { content: '\e001';}
+.fg-dashboard:before { content: '\e002';}
+.fg-task:before { content: '\e003';}
